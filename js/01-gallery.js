@@ -26,10 +26,6 @@ galleryItems.forEach((item) => {
 	const galleryItem = createGalleryItem(item);
 	galleryList.appendChild(galleryItem);
 });
-galleryItems.forEach((item) => {
-	const galleryItem = createGalleryItem(item);
-	galleryList.appendChild(galleryItem);
-});
 
 let instance = null;
 
